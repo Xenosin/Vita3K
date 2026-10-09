@@ -1,1 +1,134 @@
-cGx1Z2lucyB7CglpZCAnY29tLmFuZHJvaWQuYXBwbGljYXRpb24nCglpZCAnb3JnLmpldGJyYWlucy5rb3RsaW4ucGx1Z2luLmNvbXBvc2UnCn0KCmRlZiBzaWduaW5nU3RvcmVQYXRoID0gU3lzdGVtLmdldGVudigiU0lHTklOR19TVE9SRV9QQVRIIikKZGVmIHNpZ25pbmdTdG9yZVBhc3N3b3JkID0gU3lzdGVtLmdldGVudigiU0lHTklOR19TVE9SRV9QQVNTV09SRCIpCmRlZiBzaWduaW5nS2V5QWxpYXMgPSBTeXN0ZW0uZ2V0ZW52KCJTSUdOSU5HX0tFWV9BTElBUyIpCmRlZiBzaWduaW5nS2V5UGFzc3dvcmQgPSBTeXN0ZW0uZ2V0ZW52KCJTSUdOSU5HX0tFWV9QQVNTV09SRCIpCmRlZiBoYXNDaVNpZ25pbmcgPSBzaWduaW5nU3RvcmVQYXRoICYmIHNpZ25pbmdTdG9yZVBhc3N3b3JkICYmIHNpZ25pbmdLZXlBbGlhcyAmJiBzaWduaW5nS2V5UGFzc3dvcmQKCmFuZHJvaWQgewoJbmFtZXNwYWNlID0gIm9yZy52aXRhM2suZW11bGF0b3IiCgljb21waWxlU2RrID0gMzUKCW5ka1ZlcnNpb24gPSAiMjkuMC4xNDIwNjg2NSIKCWJ1aWxkRmVhdHVyZXMgewoJCWJ1aWxkQ29uZmlnID0gdHJ1ZQoJCWNvbXBvc2UgPSB0cnVlCgl9CgoJZGVmYXVsdENvbmZpZyB7CgkJYXBwbGljYXRpb25JZCA9ICJvcmcudml0YTNrLmVtdWxhdG9yIgoJCW1pblNkayA9IDI4CgkJdGFyZ2V0U2RrID0gMzUKCQl2ZXJzaW9uQ29kZSA9IDIxCgkJdmVyc2lvbk5hbWUgPSAiMC4yLjEiCgoJCW5kayB7CgkJCWFiaUZpbHRlcnMgImFybTY0LXY4YSIsICJ4ODZfNjQiCgkJfQoJfQoKCXNpZ25pbmdDb25maWdzIHsKCQljaSB7CgkJCWlmIChoYXNDaVNpZ25pbmcpIHsKCQkJCXN0b3JlRmlsZSA9IGZpbGUoc2lnbmluZ1N0b3JlUGF0aCkKCQkJCXN0b3JlUGFzc3dvcmQgPSBzaWduaW5nU3RvcmVQYXNzd29yZAoJCQkJa2V5QWxpYXMgPSBzaWduaW5nS2V5QWxpYXMKCQkJCWtleVBhc3N3b3JkID0gc2lnbmluZ0tleVBhc3N3b3JkCgkJCX0KCQl9Cgl9CgoJYnVpbGRUeXBlcyB7CgkJZGVidWcgewoJCQlkZWJ1Z2dhYmxlID0gdHJ1ZQoJCQlqbmlEZWJ1Z2dhYmxlID0gdHJ1ZQoJCQlhcHBsaWNhdGlvbklkU3VmZml4ID0gJy5kZWJ1ZycKCQl9CgoJCXJlbGRlYnVnIHsKCQkJZGVidWdnYWJsZSA9IHRydWUKCQkJam5pRGVidWdnYWJsZSA9IHRydWUKCQkJZXh0ZXJuYWxOYXRpdmVCdWlsZCB7CgkJCQljbWFrZSB7CgkJCQkJYXJndW1lbnRzICItRENNQUtFX0JVSUxEX1RZUEU9UmVsV2l0aERlYkluZm8iCgkJCQl9CgkJCX0KCQkJbWluaWZ5RW5hYmxlZCA9IGZhbHNlCgkJCXNocmlua1Jlc291cmNlcyA9IGZhbHNlCgkJCWFwcGxpY2F0aW9uSWRTdWZmaXggPSAnLmRlYnVnJwoJCQlzaWduaW5nQ29uZmlnID0gc2lnbmluZ0NvbmZpZ3MuZGVidWcKCQl9CgoJCXJlbGVhc2UgewoJCQlkZWJ1Z2dhYmxlID0gZmFsc2UKCQkJam5pRGVidWdnYWJsZSA9IGZhbHNlCgkJCWV4dGVybmFsTmF0aXZlQnVpbGQgewoJCQkJY21ha2UgewoJCQkJCWFyZ3VtZW50cyAiLURDTUFLRV9CVUlMRF9UWVBFPVJlbGVhc2UiCgkJCQl9CgkJCX0KCQkJbWluaWZ5RW5hYmxlZCA9IGZhbHNlCgkJCXNocmlua1Jlc291cmNlcyA9IGZhbHNlCgkJCXNpZ25pbmdDb25maWcgPSBoYXNDaVNpZ25pbmcgPyBzaWduaW5nQ29uZmlncy5jaSA6IHNpZ25pbmdDb25maWdzLmRlYnVnCgkJfQoJfQoKCWNvbXBpbGVPcHRpb25zIHsKCQlzb3VyY2VDb21wYXRpYmlsaXR5IEphdmFWZXJzaW9uLlZFUlNJT05fMTcKCQl0YXJnZXRDb21wYXRpYmlsaXR5IEphdmFWZXJzaW9uLlZFUlNJT05fMTcKCX0KCglzb3VyY2VTZXRzIHsKCQltYWluIHsKCQkJam5pTGlicy5zcmNEaXJzID0gWycuLi9wcmVidWlsdCddCgkJCWFzc2V0cyB7CgkJCQlzcmNEaXJzICdhc3NldHMnCgkJCX0KCQkJamF2YSB7CgkJCQlzcmNEaXJzICs9IFsnLi4vLi4vZXh0ZXJuYWwvc2RsL2FuZHJvaWQtcHJvamVjdC9hcHAvc3JjL21haW4vamF2YSddCgkJCX0KCQl9Cgl9CgoJZXh0ZXJuYWxOYXRpdmVCdWlsZCB7CgkJY21ha2UgewoJCQlwYXRoID0gJy4uLy4uL0NNYWtlTGlzdHMudHh0JwoJCQl2ZXJzaW9uID0gJzMuMjIuMSsnCgkJfQoJfQoKCWxpbnQgewoJCWFib3J0T25FcnJvciA9IGZhbHNlCgkJY2hlY2tSZWxlYXNlQnVpbGRzID0gZmFsc2UKCX0KCXBhY2thZ2luZyB7CgkJam5pTGlicyB7CgkJCXVzZUxlZ2FjeVBhY2thZ2luZyA9IHRydWUKCQl9Cgl9Cn0KCmRlcGVuZGVuY2llcyB7CglpbXBsZW1lbnRhdGlvbiAnYW5kcm9pZHguYXBwY29tcGF0OmFwcGNvbXBhdDoxLjYuMScKCWltcGxlbWVudGF0aW9uICJhbmRyb2lkeC5jb3JlOmNvcmU6MS4xMi4wIgoJaW1wbGVtZW50YXRpb24gJ2FuZHJvaWR4LmNvcmU6Y29yZS1nb29nbGUtc2hvcnRjdXRzOjEuMS4wJwoJaW1wbGVtZW50YXRpb24gJ2NvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbDptYXRlcmlhbDoxLjExLjAnCglpbXBsZW1lbnRhdGlvbiAnYW5kcm9pZHguY29uc3RyYWludGxheW91dDpjb25zdHJhaW50bGF5b3V0OjIuMS40JwoJaW1wbGVtZW50YXRpb24gJ2NvbS5nZXRrZWVwc2FmZS5yZWxpbmtlcjpyZWxpbmtlcjoxLjQuNScKCglpbXBsZW1lbnRhdGlvbiBwbGF0Zm9ybSgnYW5kcm9pZHguY29tcG9zZTpjb21wb3NlLWJvbToyMDI1LjA0LjAwJykKCWltcGxlbWVudGF0aW9uICdhbmRyb2lkeC5jb21wb3NlLnVpOnVpJwoJaW1wbGVtZW50YXRpb24gJ2FuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzOm1hdGVyaWFsMycKCWltcGxlbWVudGF0aW9uICdhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsOm1hdGVyaWFsLWljb25zLWV4dGVuZGVkJwoJaW1wbGVtZW50YXRpb24gJ2FuZHJvaWR4LmNvbXBvc2UudWk6dWktdG9vbGluZy1wcmV2aWV3JwoJaW1wbGVtZW50YXRpb24gJ2FuZHJvaWR4LmFjdGl2aXR5OmFjdGl2aXR5LWNvbXBvc2U6MS45LjMnCglpbXBsZW1lbnRhdGlvbiAnYW5kcm9pZHgubGlmZWN5Y2xlOmxpZmVjeWNsZS12aWV3bW9kZWwtY29tcG9zZToyLjguNycKCWltcGxlbWVudGF0aW9uICdhbmRyb2lkeC5saWZlY3ljbGU6bGlmZWN5Y2xlLXJ1bnRpbWUtY29tcG9zZToyLjguNycKCWltcGxlbWVudGF0aW9uICdhbmRyb2lkeC5uYXZpZ2F0aW9uOm5hdmlnYXRpb24tY29tcG9zZToyLjguNScKCWltcGxlbWVudGF0aW9uICdpby5jb2lsLWt0OmNvaWwtY29tcG9zZToyLjcuMCcKCWRlYnVnSW1wbGVtZW50YXRpb24gJ2FuZHJvaWR4LmNvbXBvc2UudWk6dWktdG9vbGluZycKfQo=
+plugins {
+	id 'com.android.application'
+	id 'org.jetbrains.kotlin.plugin.compose'
+}
+
+def signingStorePath = System.getenv("SIGNING_STORE_PATH")
+def signingStorePassword = System.getenv("SIGNING_STORE_PASSWORD")
+def signingKeyAlias = System.getenv("SIGNING_KEY_ALIAS")
+def signingKeyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+def hasCiSigning = signingStorePath && signingStorePassword && signingKeyAlias && signingKeyPassword
+
+android {
+	namespace = "org.vita3k.emulator"
+	compileSdk = 35
+	ndkVersion = "29.0.14206865"
+	buildFeatures {
+		buildConfig = true
+		compose = true
+	}
+
+	defaultConfig {
+		applicationId = "org.vita3k.emulator"
+		minSdk = 28
+		targetSdk = 35
+		versionCode = 21
+		versionName = "0.2.1"
+
+		ndk {
+			abiFilters "arm64-v8a", "x86_64"
+		}
+	}
+
+	signingConfigs {
+		ci {
+			if (hasCiSigning) {
+				storeFile = file(signingStorePath)
+				storePassword = signingStorePassword
+				keyAlias = signingKeyAlias
+				keyPassword = signingKeyPassword
+			}
+		}
+	}
+
+	buildTypes {
+		debug {
+			debuggable = true
+			jniDebuggable = true
+			applicationIdSuffix = '.debug'
+		}
+
+		reldebug {
+			debuggable = true
+			jniDebuggable = true
+			externalNativeBuild {
+				cmake {
+					arguments "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+				}
+			}
+			minifyEnabled = false
+			shrinkResources = false
+			applicationIdSuffix = '.debug'
+			signingConfig = signingConfigs.debug
+		}
+
+		release {
+			debuggable = false
+			jniDebuggable = false
+			externalNativeBuild {
+				cmake {
+					arguments "-DCMAKE_BUILD_TYPE=Release"
+				}
+			}
+			minifyEnabled = true
+			shrinkResources = true
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+			signingConfig = hasCiSigning ? signingConfigs.ci : signingConfigs.debug
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_17
+		targetCompatibility JavaVersion.VERSION_17
+	}
+
+	sourceSets {
+		main {
+			jniLibs.srcDirs = ['../prebuilt']
+			assets {
+				srcDirs 'assets'
+			}
+			java {
+				srcDirs += ['../../external/sdl/android-project/app/src/main/java']
+			}
+		}
+	}
+
+	externalNativeBuild {
+		cmake {
+			path = '../../CMakeLists.txt'
+			version = '3.22.1+'
+		}
+	}
+
+	lint {
+		abortOnError = false
+		checkReleaseBuilds = false
+	}
+	packaging {
+		jniLibs {
+			useLegacyPackaging = true
+		}
+	}
+}
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.6.1'
+	implementation "androidx.core:core:1.12.0"
+	implementation 'androidx.core:core-google-shortcuts:1.1.0'
+	implementation 'com.google.android.material:material:1.11.0'
+	implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+	implementation 'com.getkeepsafe.relinker:relinker:1.4.5'
+
+	implementation platform('androidx.compose:compose-bom:2025.04.00')
+	implementation 'androidx.compose.ui:ui'
+	implementation 'androidx.compose.material3:material3'
+	implementation 'androidx.compose.material:material-icons-extended'
+	implementation 'androidx.compose.ui:ui-tooling-preview'
+	implementation 'androidx.activity:activity-compose:1.9.3'
+	implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7'
+	implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.8.7'
+	implementation 'androidx.navigation:navigation-compose:2.8.5'
+	implementation 'io.coil-kt:coil-compose:2.7.0'
+	debugImplementation 'androidx.compose.ui:ui-tooling'
+}
