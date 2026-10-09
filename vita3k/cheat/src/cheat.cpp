@@ -365,7 +365,14 @@ private:
     // `$0X00 <address> <value>`
     void execute_write(const CodeLine &line) {
         ++m_index;
-        write_value(m_mem, resolve(line.first), static_cast<CodeWidth>(line.op()), line.second);
+        const auto width = static_cast<CodeWidth>(line.op());
+        const uint32_t address = resolve(line.first);
+        const uint32_t value = line.second;
+        // Optimization: skip write if value already matches (reduces overhead for static cheats)
+        uint32_t current = 0;
+        if (read_value(m_mem, address, width, current) && current == value)
+            return;
+        write_value(m_mem, address, width, value);
     }
 
     // `$5X00 <destination> <source>`
@@ -374,8 +381,14 @@ private:
 
         const auto width = static_cast<CodeWidth>(line.op());
         uint32_t value = 0;
-        if (read_value(m_mem, resolve(line.second), width, value))
-            write_value(m_mem, resolve(line.first), width, value);
+        const uint32_t dest = resolve(line.first);
+        if (read_value(m_mem, resolve(line.second), width, value)) {
+            // Optimization: skip write if value already matches
+            uint32_t current = 0;
+            if (read_value(m_mem, dest, width, current) && current == value)
+                return;
+            write_value(m_mem, dest, width, value);
+        }
     }
 
     // `$4X01 <address> <value>` followed by `$<count> <address gap> <value gap>`
