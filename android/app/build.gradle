@@ -49,8 +49,8 @@ android {
 		}
 
 		reldebug {
-			debuggable = true
-			jniDebuggable = true
+			debuggable = false
+			jniDebuggable = false
 			externalNativeBuild {
 				cmake {
 					arguments "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
